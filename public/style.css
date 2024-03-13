@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f0f0f0; /* Cambio de color de fondo */
+  margin: 20px auto;
+  text-align: center;
+  max-width: 800px; /* Ajuste del ancho máximo */
+  padding: 20px; /* Añadido un espacio interno */
+}
+
+h1 {
+  color: #2c3e50; /* Cambio de color para mejorar la legibilidad */
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #3498db; /* Cambio de color del botón principal */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s background-color ease; /* Ajuste de la duración de la transición */
+}
+
+button:hover {
+  background-color: #2980b9; /* Cambio de color al pasar el mouse */
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: calc(100% - 22px); /* Ajuste del ancho del campo de entrada */
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px; /* Reducción del tamaño de fuente para mejorar la legibilidad */
+  border: 1px solid #ccc; /* Añadido un borde para mejorar la apariencia */
+  border-radius: 5px; /* Añadido un borde redondeado */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.postItem {
+  background-color: #ecf0f1; /* Cambio de color de fondo para los elementos de la lista */
+  border: 1px solid #bdc3c7; /* Cambio de color del borde */
+  border-radius: 5px; /* Ajuste del radio del borde */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.editForm {
+  display: none;
+  margin-top: 10px;
+}
